@@ -53,7 +53,7 @@ Setup instance in Google:
 
 ### Step 2.2: Connect to instance:
 
-Connect to instance via RDP:
+Connect to instance-activegate via RDP:
 
 Get RDP file and password from Google.
 
@@ -61,7 +61,7 @@ Get RDP file and password from Google.
 
 ### Step 2.3: Download ActiveGate:
 
-Download the ActiveGate installer from Dynatrace to your compute engine instance.
+Download the ActiveGate installer from Dynatrace to instance-activegate.
 
 <br>
 
@@ -95,6 +95,7 @@ sudo su
 Execute this command on instance-activegateplugins:
 
 ```
+apt-get install python3-pip
 pip3 install oneagent_sdk-1.147.90.20180611.134001-py3-none-any.whl 
 ```
 
@@ -140,4 +141,4 @@ python3 -m oneagent_sdk.demo_app
 
 ### Step 3.8: Go to Dynatrace:
 
-Go to Dynatrace and watch metrics coming in.
+Go to Dynatrace, configure plugin and watch metrics coming in.
