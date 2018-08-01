@@ -40,7 +40,7 @@ sudo apt-get install git
 Execute this command on instance-oneagentplugins:
 
 ```
-git clone https://github.com/sachsenhofer/extending-monitoring.git
+git clone https://github.com/dynatrace-innovationlab/extending-monitoring.git
 ```
 
 <br>
@@ -67,7 +67,17 @@ sudo su
 
 <br>
 
-### Step 3.2: Install OneAgent SDK:
+### Step 3.2: Install pip3:
+
+Execute this command on instance-oneagentplugins:
+
+```
+apt-get install python3-pip
+```
+
+<br>
+
+### Step 3.3: Install OneAgent SDK:
 
 Execute this command on instance-oneagentplugins:
 
@@ -77,13 +87,13 @@ pip3 install oneagent_sdk-1.147.90.20180611.134001-py3-none-any.whl
 
 <br>
 
-### Step 3.3: Develop plugin:
+### Step 3.4: Develop plugin:
 
 Develop plugin.
 
 <br>
 
-### Step 3.4: Create upload token:
+### Step 3.5: Create upload token:
 
 In Dynatrace create a upload token:
 
@@ -91,7 +101,7 @@ In Dynatrace create a upload token:
 
 <br>
 
-### Step 3.5: Build and upload plugin:
+### Step 3.6: Build and upload plugin:
 
 Execute this command on instance-oneagentplugins:
 
@@ -112,13 +122,13 @@ $ export PATH=$PATH:/home/dominik.sachsenhofer/.local/bin
 
 <br>
 
-### Step 3.6: Upgrade plugin to production:
+### Step 3.7: Upgrade plugin to production:
 
 Upgrade plugin to production.
 
 <br>
 
-### Step 3.7: Run the demo application:
+### Step 3.8: Run the demo application:
 
 Execute this command on instance-oneagentplugins:
 
@@ -128,7 +138,7 @@ python3 -m oneagent_sdk.demo_app
 
 <br>
 
-### Step 3.8: Go to Dynatrace:
+### Step 3.9: Go to Dynatrace:
 
 Go to Dynatrace and watch metrics coming in.
 
