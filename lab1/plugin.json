@@ -1,6 +1,6 @@
 {
   "name": "custom.python.demo_plugin",
-  "version": "1.2",
+  "version": "1.0",
   "type": "python",
   "entity": "PROCESS_GROUP_INSTANCE",
   "processTypeNames": ["PYTHON"],
@@ -22,11 +22,11 @@
       "timeseries": {
         "key": "counter",
         "unit": "Count",
-	"displayname":"Counter Value"
+	"displayname": "Counter Value"
       }
     }
   ],
    "configUI": {
-        "displayName": "OneAgent Demo Plugin"
+        "displayName": "DemoPlugin"
     }
 }
