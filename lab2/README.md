@@ -137,6 +137,10 @@ In instance-activegateplugins we run the demo app:
 python3 -m oneagent_sdk.demo_app
 ```
 
+### Step 3.8: Allow access:
+
+Open port in Google.
+
 <br>
 
 ### Step 3.8: Go to Dynatrace:
