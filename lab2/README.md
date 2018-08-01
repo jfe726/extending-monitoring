@@ -143,6 +143,6 @@ Open port in Google.
 
 <br>
 
-### Step 3.8: Go to Dynatrace:
+### Step 3.9: Go to Dynatrace:
 
 Go to Dynatrace, configure plugin and watch metrics coming in.
