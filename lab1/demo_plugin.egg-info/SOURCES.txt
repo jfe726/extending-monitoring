@@ -1,0 +1,6 @@
+/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/demo_plugin.py
+/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/demo_plugin.egg-info/PKG-INFO
+/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/demo_plugin.egg-info/SOURCES.txt
+/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/demo_plugin.egg-info/dependency_links.txt
+/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/demo_plugin.egg-info/requires.txt
+/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/demo_plugin.egg-info/top_level.txt

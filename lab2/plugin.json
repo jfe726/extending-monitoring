@@ -1,0 +1,113 @@
+{
+  "name": "custom.remote.python.demo",
+  "version": "1.0",
+  "requiredAgentVersion": "1.101.0",
+  "type": "python",
+  "entity": "CUSTOM_DEVICE",
+  "technologies": ["DEMO"],
+  "source": {
+    "package": "remote_python_demo",
+    "className": "RemoteDemoPlugin",
+    "install_requires": [
+      "requests>=2.6.0"
+    ],
+    "activation": "Singleton"
+  },
+  "ui" : {
+    "keymetrics" : [
+      {
+        "key": "custom_counter",
+        "aggregation": "avg",
+        "mergeaggregation": "avg",
+        "displayname": "custom_counter"
+      },
+      {
+        "key": "custom_random",
+        "aggregation": "avg",
+        "mergeaggregation": "avg",
+        "displayname": "custom_random"
+      }
+    ],
+    "keycharts" : [
+      {
+        "group": "Metrics",
+        "title": "Metrics (Keycharts)",
+        "aggregation": "avg",
+        "mergeaggregation": "avg",
+        "displayname": "Metrics",
+        "series" : [
+          {
+            "key": "custom_counter",
+            "displayname": "custom_counter",
+            "seriestype": "area",
+            "metricexplanation": "custom_counter",
+            "stacked": false,
+            "color": "#107dac"
+          },
+          {
+            "key": "custom_random",
+            "displayname": "custom_random",
+            "seriestype": "area",
+            "metricexplanation": "custom_random",
+            "stacked": false,
+            "color": "#189ad3"
+          }
+        ]
+      }
+    ],
+    "charts" : [
+      {
+        "group": "Metrics",
+        "title": "Metrics (Charts)",
+        "series" : [
+          {
+            "key": "custom_counter",
+            "displayname": "custom_counter",
+            "seriestype": "area",
+            "metricexplanation": "custom_counter",
+            "stacked": false,
+            "color": "#107dac"
+          },
+          {
+            "key": "custom_random",
+            "displayname": "custom_random",
+            "seriestype": "area",
+            "metricexplanation": "custom_random",
+            "stacked": false,
+            "color": "#189ad3"
+          }        ]
+      }
+    ]
+  },
+  "metrics": [
+    { "timeseries": { "key": "custom_counter", "unit": "Count", "dimensions": [], "displayname": "counter" }, "source": { "type": "Stats", "relative": false}},
+    { "timeseries": { "key": "custom_random", "unit": "Count", "dimensions": [], "displayname": "random" }, "source": { "type": "Stats", "relative": false}}
+  ],
+  "properties": [
+    {
+      "key": "id",
+      "type": "String"
+    },
+    {
+      "key": "url",
+      "type": "String"
+    },
+    {
+      "key": "port",
+      "type": "String"
+    },
+    {
+      "key": "debug",
+      "type": "String"
+    }
+  ],
+  "configUI" :{
+    "displayName": "DemoPlugin",
+	"properties" : [
+	  { "key" : "id", "displayName": "ID", "displayOrder": 1, "displayHint": "Host1" },
+	  { "key" : "url", "displayName": "URL", "displayOrder": 2, "displayHint": "http://111.222.333.444" },
+	  { "key" : "port", "displayName": "Port", "displayOrder": 3, "displayHint": "8080" },
+	  { "key" : "debug", "displayName": "Debug", "displayOrder": 4, "displayHint": "true/false" }
+	]
+  }
+}

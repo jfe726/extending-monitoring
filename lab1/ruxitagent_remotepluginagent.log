@@ -1,0 +1,99 @@
+WARNING:oneagent_sdk.plugin_simulator:Unable to find pluguin configuration file, assuming emtpy config
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/oneagent_sdk/plugin_simulator.py", line 302, in get_plugin_properties
+    with open(properties_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/properties.json'
+INFO:ruxit.plugin_loop:Installing plugins with conflict resolution
+INFO:ruxit.package_utils.plugin_updater:Unable to get revision from plugin_directory_path '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1', assuming -1
+INFO:ruxit.package_utils.plugin_updater:plugins_by_revision: defaultdict(<class 'dict'>,
+            {'no_revision': {'custom.python.demo_plugin': PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')}})
+INFO:ruxit.package_utils.plugin_updater:Installing plugins
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'no_revision'
+INFO:ruxit.package_utils.plugin_updater:Processing candidate_entries: {'custom.python.demo_plugin': PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')}
+INFO:ruxit.package_utils.plugin_updater:Working set validated, new current_entries: OrderedDict([('custom.python.demo_plugin',
+              PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin'))])
+INFO:ruxit.package_utils.plugin_updater:Plugin PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin') from revision 'no_revision' compatible
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'plugin_deployment'
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'plugin_development'
+INFO:ruxit.plugin_loop:========= INCOMPATIBLE PLUGINS =========
+INFO:ruxit.plugin_loop:[]
+INFO:ruxit.plugin_loop:========================================
+INFO:ruxit.plugin_loop:****************************************
+INFO:ruxit.plugin_loop:[PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')]
+INFO:ruxit.plugin_loop:****************************************
+INFO:ruxit.plugin_loop:sys.path after installing plugins: ['/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python36.zip', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload', '/Users/dominik.sachsenhofer/Library/Python/3.6/lib/python/site-packages', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pip-9.0.1-py3.6.egg', '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1']
+ERROR:oneagent_sdk.plugin_simulator:Plugin simulator was stopped with unexpected exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/oneagent_sdk/plugin_simulator.py", line 265, in _main
+    platform_api=platform_api
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ruxit/plugin_loop.py", line 340, in main
+    loop.main()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ruxit/plugin_loop.py", line 91, in main
+    next(support_alert_creator)
+TypeError: 'Mock' object is not an iterator
+WARNING:oneagent_sdk.plugin_simulator:Unable to find pluguin configuration file, assuming emtpy config
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/oneagent_sdk/plugin_simulator.py", line 302, in get_plugin_properties
+    with open(properties_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/properties.json'
+INFO:ruxit.plugin_loop:Installing plugins with conflict resolution
+INFO:ruxit.package_utils.plugin_updater:Unable to get revision from plugin_directory_path '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1', assuming -1
+INFO:ruxit.package_utils.plugin_updater:plugins_by_revision: defaultdict(<class 'dict'>,
+            {'no_revision': {'custom.python.demo_plugin': PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')}})
+INFO:ruxit.package_utils.plugin_updater:Installing plugins
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'no_revision'
+INFO:ruxit.package_utils.plugin_updater:Processing candidate_entries: {'custom.python.demo_plugin': PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')}
+INFO:ruxit.package_utils.plugin_updater:Working set validated, new current_entries: OrderedDict([('custom.python.demo_plugin',
+              PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin'))])
+INFO:ruxit.package_utils.plugin_updater:Plugin PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin') from revision 'no_revision' compatible
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'plugin_deployment'
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'plugin_development'
+INFO:ruxit.plugin_loop:========= INCOMPATIBLE PLUGINS =========
+INFO:ruxit.plugin_loop:[]
+INFO:ruxit.plugin_loop:========================================
+INFO:ruxit.plugin_loop:****************************************
+INFO:ruxit.plugin_loop:[PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')]
+INFO:ruxit.plugin_loop:****************************************
+INFO:ruxit.plugin_loop:sys.path after installing plugins: ['/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python36.zip', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload', '/Users/dominik.sachsenhofer/Library/Python/3.6/lib/python/site-packages', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages', '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1']
+ERROR:oneagent_sdk.plugin_simulator:Plugin simulator was stopped with unexpected exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/oneagent_sdk/plugin_simulator.py", line 265, in _main
+    platform_api=platform_api
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ruxit/plugin_loop.py", line 340, in main
+    loop.main()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ruxit/plugin_loop.py", line 91, in main
+    next(support_alert_creator)
+TypeError: 'Mock' object is not an iterator
+WARNING:oneagent_sdk.plugin_simulator:Unable to find pluguin configuration file, assuming emtpy config
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/oneagent_sdk/plugin_simulator.py", line 302, in get_plugin_properties
+    with open(properties_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1/properties.json'
+INFO:ruxit.plugin_loop:Installing plugins with conflict resolution
+INFO:ruxit.package_utils.plugin_updater:Unable to get revision from plugin_directory_path '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1', assuming -1
+INFO:ruxit.package_utils.plugin_updater:plugins_by_revision: defaultdict(<class 'dict'>,
+            {'no_revision': {'custom.python.demo_plugin': PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')}})
+INFO:ruxit.package_utils.plugin_updater:Installing plugins
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'no_revision'
+INFO:ruxit.package_utils.plugin_updater:Processing candidate_entries: {'custom.python.demo_plugin': PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')}
+INFO:ruxit.package_utils.plugin_updater:Working set validated, new current_entries: OrderedDict([('custom.python.demo_plugin',
+              PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin'))])
+INFO:ruxit.package_utils.plugin_updater:Plugin PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin') from revision 'no_revision' compatible
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'plugin_deployment'
+INFO:ruxit.package_utils.plugin_updater:Processing revision 'plugin_development'
+INFO:ruxit.plugin_loop:========= INCOMPATIBLE PLUGINS =========
+INFO:ruxit.plugin_loop:[]
+INFO:ruxit.plugin_loop:========================================
+INFO:ruxit.plugin_loop:****************************************
+INFO:ruxit.plugin_loop:[PluginInfo(name='custom.python.demo_plugin', reported_name='custom.python.demo_plugin', version='1.2', directory='/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1'  package='demo_plugin')]
+INFO:ruxit.plugin_loop:****************************************
+INFO:ruxit.plugin_loop:sys.path after installing plugins: ['/Library/Frameworks/Python.framework/Versions/3.6/bin', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python36.zip', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/lib-dynload', '/Users/dominik.sachsenhofer/Library/Python/3.6/lib/python/site-packages', '/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages', '/Users/dominik.sachsenhofer/git/dynatrace-plugins/lab1']
+ERROR:oneagent_sdk.plugin_simulator:Plugin simulator was stopped with unexpected exception
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/oneagent_sdk/plugin_simulator.py", line 265, in _main
+    platform_api=platform_api
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ruxit/plugin_loop.py", line 340, in main
+    loop.main()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/ruxit/plugin_loop.py", line 91, in main
+    next(support_alert_creator)
+TypeError: 'Mock' object is not an iterator
