@@ -25,21 +25,12 @@ Copy gcloud command from Google and paste it into your terminal.
 
 <br>
 
-### Step 1.3: Install git:
+### Step 1.3: Clone repository:
 
 Execute this command on instance-oneagentplugins:
 
 ```
 sudo apt-get install git
-```
-
-<br>
-
-### Step 1.4: Clone repository:
-
-Execute this command on instance-oneagentplugins:
-
-```
 git clone https://github.com/dynatrace-innovationlab/extending-monitoring.git
 ```
 
@@ -67,33 +58,24 @@ sudo su
 
 <br>
 
-### Step 3.2: Install pip3:
+### Step 3.2: Install OneAgent SDK:
 
 Execute this command on instance-oneagentplugins:
 
 ```
 apt-get install python3-pip
-```
-
-<br>
-
-### Step 3.3: Install OneAgent SDK:
-
-Execute this command on instance-oneagentplugins:
-
-```
 pip3 install oneagent_sdk-1.147.90.20180611.134001-py3-none-any.whl 
 ```
 
 <br>
 
-### Step 3.4: Develop plugin:
+### Step 3.3: Develop plugin:
 
 Develop plugin.
 
 <br>
 
-### Step 3.5: Create upload token:
+### Step 3.4: Create upload token:
 
 In Dynatrace create a upload token:
 
@@ -101,12 +83,16 @@ In Dynatrace create a upload token:
 
 <br>
 
-### Step 3.6: Build and upload plugin:
+### Step 3.5: Build and deploy plugin:
 
 Execute this command on instance-oneagentplugins:
 
 ```
 oneagent_build_plugin
+
+mv /opt/dynatrace/oneagent/plugin_development/custom.python.demo_plugin /opt/dynatrace/oneagent/plugin_deployment/custom.python.demo_plugin
+
+service oneagent restart 
 ```
 
 Then enter the upload token when prompted.
