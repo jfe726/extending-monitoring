@@ -25,22 +25,13 @@ Copy gcloud command from Google and paste it into your terminal.
 
 <br>
 
-### Step 1.3: Install git:
+### Step 1.3: Clone repository:
 
 Execute this command on instance-activegateplugins:
 
 ```
 sudo apt-get install git
-```
-
-<br>
-
-### Step 1.4: Clone repository:
-
-Execute this command on instance-activegateplugins:
-
-```
-git clone https://github.com/sachsenhofer/extending-monitoring.git
+git clone https://github.com/dynatrace-innovationlab/extending-monitoring.git
 ```
 
 <br>
