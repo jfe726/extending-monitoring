@@ -64,7 +64,12 @@ Execute this command on instance-oneagentplugins:
 
 ```
 apt-get install python3-pip
+
+# Execute if you use a Sprint Tenant:
 pip3 install oneagent_sdk-1.147.90.20180611.134001-py3-none-any.whl 
+
+# Execute if you use a Live Tenant:
+pip3 install oneagent_sdk-1.149.188.20180731.132520-py3-none-any.whl
 ```
 
 <br>
