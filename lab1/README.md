@@ -31,6 +31,9 @@ Execute this command on instance-oneagentplugins:
 
 ```
 sudo apt-get install git
+```
+
+```
 git clone https://github.com/dynatrace-innovationlab/extending-monitoring.git
 ```
 
@@ -64,7 +67,9 @@ Execute this command on instance-oneagentplugins:
 
 ```
 apt-get install python3-pip
+```
 
+```
 # Execute if you use a Sprint Tenant:
 pip3 install oneagent_sdk-1.147.90.20180611.134001-py3-none-any.whl 
 
@@ -94,9 +99,13 @@ Execute this command on instance-oneagentplugins:
 
 ```
 oneagent_build_plugin
+```
 
+```
 mv /opt/dynatrace/oneagent/plugin_development/custom.python.demo_plugin /opt/dynatrace/oneagent/plugin_deployment/custom.python.demo_plugin
+```
 
+```
 service oneagent restart 
 ```
 
@@ -115,7 +124,7 @@ $ export PATH=$PATH:/home/dominik.sachsenhofer/.local/bin
 
 ### Step 3.7: Upgrade plugin to production:
 
-Upgrade plugin to production.
+Upgrade plugin to production in Dynatrace.
 
 <br>
 
