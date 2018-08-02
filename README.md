@@ -16,6 +16,7 @@ __Prerequisites__
 https://github.com/dynatrace-innovationlab/extending-monitoring/tree/master/prerequisites
 
 <br>
+<br>
 
 __Lab 1: OneAgent Plugins__
 
@@ -27,6 +28,7 @@ __Lab 1: OneAgent Plugins__
 
 https://github.com/dynatrace-innovationlab/extending-monitoring/tree/master/lab1
 
+<br>
 <br>
 
 __Lab 2: ActiveGate Plugins__
