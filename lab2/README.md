@@ -15,15 +15,11 @@ Setup instance in Google:
 - Allow HTTP traffic
 - Allow HTTPS traffic
 
-<br>
-
 ### Step 1.2: Connect to instance:
 
 Connect to instance:
 
 Copy gcloud command from Google and paste it into your terminal.
-
-<br>
 
 ### Step 1.3: Clone repository:
 
@@ -52,21 +48,15 @@ Setup instance in Google:
 - Allow HTTP traffic
 - Allow HTTPS traffic
 
-<br>
-
 ### Step 2.2: Connect to instance:
 
 Connect to instance-activegate via RDP:
 
 Get RDP file and password from Google.
 
-<br>
-
 ### Step 2.3: Download ActiveGate:
 
 Download the ActiveGate installer from Dynatrace to instance-activegate.
-
-<br>
 
 ### Step 2.4: Install ActiveGate:
 
@@ -91,8 +81,6 @@ Execute this command on instance-activegateplugins:
 sudo su
 ```
 
-<br>
-
 ### Step 3.2: Install OneAgent SDK:
 
 Execute this command on instance-activegateplugins:
@@ -109,13 +97,9 @@ pip3 install oneagent_sdk-1.147.90.20180611.134001-py3-none-any.whl
 pip3 install oneagent_sdk-1.149.188.20180731.132520-py3-none-any.whl
 ```
 
-<br>
-
 ### Step 3.3: Develop the ActiveGate plugin:
 
 Develop the ActiveGate Plugin.
-
-<br>
 
 ### Step 3.4: Deploy the plugin on the ActiveGate:
 
@@ -123,21 +107,15 @@ On instance-activegate, upload the __unzipped plugin__ folder to the __plugin_de
 
 C:\Program Files\dynatrace\gateway\components\plugin_deployment\
 
-<br>
-
 ### Step 3.5: Restart Dynatrace Remote Plugin Agent:
 
 On instance-activegate, go to __Server Manager - Services__, search for __Dynatrace Remote Plugin Agent__ and restart the service.
-
-<br>
 
 ### Step 3.6: Deploy the plugin on Dynatrace:
 
 In __Dynatrace UI__, go to __Settings - Monitored technologies - Custom plugins - Upload ActiveGate plugin__
 
 Then upload __zipped plugin__ folder to Dynatrace.
-
-<br>
 
 ### Step 3.7: Run the demo application:
 
@@ -150,8 +128,6 @@ python3 -m oneagent_sdk.demo_app
 ### Step 3.8: Allow access:
 
 Open port in Google.
-
-<br>
 
 ### Step 3.9: Go to Dynatrace:
 
