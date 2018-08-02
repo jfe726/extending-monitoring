@@ -19,6 +19,8 @@ https://github.com/dynatrace-innovationlab/extending-monitoring/tree/master/prer
 
 __Lab 1: OneAgent Plugins__
 
+![Img](./assets/img1.png)
+
 - Task 1: Preparing a host to monitor
 - Task 2: Deploy Dynatrace
 - Task 3: Build and deploy an OneAgent Plugin
@@ -28,6 +30,8 @@ https://github.com/dynatrace-innovationlab/extending-monitoring/tree/master/lab1
 <br>
 
 __Lab 2: ActiveGate Plugins__
+
+![Img](./assets/img2.png)
 
 - Task 1: Preparing a host to monitor
 - Task 2: Setup an ActiveGate
