@@ -1,4 +1,4 @@
-# Lab 1: Prerequisites
+# Prerequisites
 
 ### 1.1 Prerequisites
 
